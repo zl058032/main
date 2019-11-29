@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BasePool",
+  "short_name": "BasePool",
+  "version": "com.phonegap.helloworld",
+  "description": "BasePool Official",
+  "author": "BasePool Team",
+  "icons": [],
+  "start_url": "index.html"
+}
