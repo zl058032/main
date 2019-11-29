@@ -1,0 +1,69 @@
+{
+  "_from": "git+https://github.com/quiply/SaveImage.git",
+  "_id": "cordova-plugin-save-image@0.3.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-save-image",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/quiply/SaveImage.git",
+    "rawSpec": "https://github.com/quiply/SaveImage.git",
+    "saveSpec": "git+https://github.com/quiply/SaveImage.git",
+    "fetchSpec": "https://github.com/quiply/SaveImage.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/quiply/SaveImage.git#bdb581ae5a12a229ca651b8a98363e269cc59329",
+  "_spec": "https://github.com/quiply/SaveImage.git",
+  "_where": "/Users/xuxiaomeng/work/phonegap-hello-world/pg-test",
+  "author": {
+    "name": "Quiply Technologies GmbH",
+    "email": "hello@quiply.com",
+    "url": "http://www.quiply.com"
+  },
+  "bugs": {
+    "url": "https://github.com/quiply/SaveImage/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-save-image",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows you to save an image file to the iOS Photo Library or Android Gallery.",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/quiply/SaveImage#readme",
+  "issue": "https://github.com/quiply/SaveImage/issues",
+  "keywords": [
+    "image",
+    "photo library",
+    "camera roll",
+    "ionic",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-save-image",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiply/SaveImage.git"
+  },
+  "version": "0.3.0"
+}
