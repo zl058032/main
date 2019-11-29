@@ -1,0 +1,53 @@
+#login {
+  padding-top: 0.56rem;
+
+  .logo-container {
+    padding: 0.33rem 0;
+    text-align: center;
+
+    img {
+      width: 0.8rem;
+      border-radius: 0.2rem;
+      background: #fff;
+    }
+  }
+
+  .form {
+    .item {
+      input {
+        text-align: center;
+      }
+    }
+  }
+
+  .submit {
+    padding: 0.24rem 0;
+
+    button {
+      width: 100%;
+      background: linear-gradient(to right bottom, #247BCB 0%, #14CBD2 100%);
+      color: #fff;
+    }
+  }
+
+  .opts {
+    text-align: center;
+  }
+
+  .lang-select-container {
+    margin-top: 0.24rem;
+    text-align: center;
+  }
+
+  .lang-select {
+    color: #fff;
+
+    .ant-select-selection {
+      background: transparent;
+    }
+
+    .ant-select-arrow {
+      color: #fff;
+    }
+  }
+}

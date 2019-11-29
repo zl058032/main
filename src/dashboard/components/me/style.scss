@@ -1,0 +1,126 @@
+#me {
+  min-height: 100vh;
+
+  .block {
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    color: #fff;
+    margin-bottom: 0.12rem;
+  }
+
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+
+    .avatar {
+      height: 0.6rem;
+      width: 0.6rem;
+      overflow: hidden;
+      border-radius: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      margin-right: 0.16rem;
+      
+      img {
+        width: 100%;
+        background: #fff;
+        // margin-top: 10%;
+      }
+    }
+
+    .code {
+      font-size: 0.16rem;
+      font-weight: 400;
+    }
+    .reset-pwd{
+      font-size:0.16rem;
+      font-weight:400;
+      color:#ffffff;
+      margin-left:0.12rem;
+    }
+  }
+
+  .link-list {
+    margin-bottom: 0.1rem;
+    min-height: 0.45rem;
+    border: transparent 1px solid;
+    transition: all ease 0.3s;
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.12rem 0;
+      color: #fff;
+      font-weight: 300;
+
+      div:first-child {
+        color: #fff;
+      }
+
+      div {
+        color: #677888;
+      }
+
+      .goto {
+        color: #fff;
+      }
+
+      .goto::after {
+        content: ">";
+      }
+
+      .highlight {
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+
+    img {
+      max-width: 0.2rem;
+      max-height: 0.22rem;
+    }
+
+    .icon {
+      text-align: center;
+      display: inline-block;
+      width: 0.24rem;
+      margin-right: 0.15rem;
+    }
+  }
+
+
+  .logout {
+    text-align: center;
+
+    a {
+      background: #ff0c4e;
+      color: #fff;
+      display: block;
+      padding: 0.08rem 0;
+      border-radius: 0.02rem;
+    }
+  }
+
+  .version {
+    margin: 0.12rem 0 0.24rem;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  .lang-select {
+    .ant-select-selection {
+      background: transparent;
+    }
+
+    .ant-select-arrow {
+      color: #fff;
+    }
+  }
+}
+
+#main.me {
+  // background: #efefef;
+}

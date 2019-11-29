@@ -1,0 +1,48 @@
+#subuser {
+  margin-top: 0.56rem;
+
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1rem;
+    justify-content: space-between;
+    background: #43485B;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+
+    .lv {
+      flex-shrink: 0;
+      flex-grow: 0;
+      margin-right: 0.06rem;
+    }
+
+    .lv {
+      .text {
+        display: inline-block;
+        width: 0.4rem;
+        height: 0.4rem;
+        background-image: linear-gradient(to right bottom, #247BCB 0%, #14CBD2 100%);
+        border-radius: 0.2rem;
+        line-height: 0.4rem;
+        font-size: 0.16rem;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+      }
+    }
+
+    .name {
+      font-size: 0.16rem;
+      flex-grow: 1;
+      flex-shrink: 1;
+      text-align: left;
+    }
+
+    .info {
+      font-size: 0.12rem;
+    }
+  }
+}
