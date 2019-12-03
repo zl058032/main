@@ -9,7 +9,7 @@ import { connect } from 'dva';
 import { Spin } from 'antd';
 import Qrcode from '../common/qrcode';
 import message from '../../../utils/message';
-import saveImage from '../../../utils/saveImage';
+//import saveImage from '../../../utils/saveImage';
 import FormattedMessage, { t } from '../common/formattedMessage';
 import './style.scss';
 
@@ -63,11 +63,11 @@ class Deposit extends Component {
 
   handleSaveImage = () => {
     const { url } = this.state;
-    saveImage(url, () => {
+    /* saveImage(url, () => {
       message.success(t('deposit_s_1'));
     }, () => {
       message.error(t('deposit_e_1'));
-    });
+    }); */
   }
 
   render() {

@@ -109,7 +109,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
-    <plugin name="org.devgeeks.Canvas2ImagePlugin" spec="~0.6.0" />
     <plugin name="phonegap-plugin-barcodescanner" spec="~8.1.1-dev">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
