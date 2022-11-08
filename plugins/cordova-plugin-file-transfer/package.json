@@ -50,7 +50,7 @@
   "author": "Apache Software Foundation",
   "license": "Apache-2.0",
   "devDependencies": {
-    "jscs": "^2.6.0",
+    "jscs": "^3.0.7",
     "jshint": "^2.8.0"
   }
 }
